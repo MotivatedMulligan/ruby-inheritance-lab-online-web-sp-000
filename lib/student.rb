@@ -11,18 +11,17 @@ class Student < User
 #attr_accessor :first_name, :last_name, :user, :teacher, :student
 
   def initialize
-  @first_name = first_name
-  @last_name = last_name
+  # @first_name = first_name
+  # @last_name = last_name
   @knowledge = []
   end
 
-  def learn#( string: "Ruby framework Rails gem bundle update")
-  @knowledge << "Ruby framework Rails gem bundle update"
+  def learn(string)
+  @knowledge << string
   end
 
   def knowledge
-  #   puts "sample() method form : #{KNOWLEDGE.sample(9)}\n\n"
-    @knowledge < Teacher.teach
+  #  @knowledge < Teacher.teach
     @knowledge
    end
 
