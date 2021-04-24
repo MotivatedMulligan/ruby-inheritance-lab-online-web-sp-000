@@ -8,8 +8,6 @@ class Student < User
      "programming computers hacking learning terminal",
      "bash Ruby rvm update certs"]
 
-#attr_accessor :first_name, :last_name, :user, :teacher, :student
-
   def initialize
 
   @knowledge = []
@@ -20,7 +18,7 @@ class Student < User
   end
 
   def knowledge
-  #  @knowledge < Teacher.teach
+
     @knowledge
    end
 
